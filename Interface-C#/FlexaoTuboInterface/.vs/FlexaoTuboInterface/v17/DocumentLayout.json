@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\M\\PROJ\\FlexionMeassureArduino\\Interface-C#\\FlexaoTuboInterface\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A02175EF-282C-4375-B489-5E172B027825}|FlexaoTuboInterface\\FlexaoTuboInterface.csproj|c:\\m\\proj\\flexionmeassurearduino\\interface-c#\\flexaotubointerface\\flexaotubointerface\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A02175EF-282C-4375-B489-5E172B027825}|FlexaoTuboInterface\\FlexaoTuboInterface.csproj|solutionrelative:flexaotubointerface\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02175EF-282C-4375-B489-5E172B027825}|FlexaoTuboInterface\\FlexaoTuboInterface.csproj|c:\\m\\proj\\flexionmeassurearduino\\interface-c#\\flexaotubointerface\\flexaotubointerface\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A02175EF-282C-4375-B489-5E172B027825}|FlexaoTuboInterface\\FlexaoTuboInterface.csproj|solutionrelative:flexaotubointerface\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A02175EF-282C-4375-B489-5E172B027825}|FlexaoTuboInterface\\FlexaoTuboInterface.csproj|c:\\m\\proj\\flexionmeassurearduino\\interface-c#\\flexaotubointerface\\flexaotubointerface\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A02175EF-282C-4375-B489-5E172B027825}|FlexaoTuboInterface\\FlexaoTuboInterface.csproj|solutionrelative:flexaotubointerface\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\M\\PROJ\\FlexionMeassureArduino\\Interface-C#\\FlexaoTuboInterface\\FlexaoTuboInterface\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "FlexaoTuboInterface\\Form1.Designer.cs",
+              "ToolTip": "C:\\M\\PROJ\\FlexionMeassureArduino\\Interface-C#\\FlexaoTuboInterface\\FlexaoTuboInterface\\Form1.Designer.cs",
+              "RelativeToolTip": "FlexaoTuboInterface\\Form1.Designer.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAjwFwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:38:20.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\M\\PROJ\\FlexionMeassureArduino\\Interface-C#\\FlexaoTuboInterface\\FlexaoTuboInterface\\Form1.cs",
+              "RelativeDocumentMoniker": "FlexaoTuboInterface\\Form1.cs",
+              "ToolTip": "C:\\M\\PROJ\\FlexionMeassureArduino\\Interface-C#\\FlexaoTuboInterface\\FlexaoTuboInterface\\Form1.cs",
+              "RelativeToolTip": "FlexaoTuboInterface\\Form1.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAYwIcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:24:50.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\M\\PROJ\\FlexionMeassureArduino\\Interface-C#\\FlexaoTuboInterface\\FlexaoTuboInterface\\Form1.cs",
+              "RelativeDocumentMoniker": "FlexaoTuboInterface\\Form1.cs",
+              "ToolTip": "C:\\M\\PROJ\\FlexionMeassureArduino\\Interface-C#\\FlexaoTuboInterface\\FlexaoTuboInterface\\Form1.cs [Design]",
+              "RelativeToolTip": "FlexaoTuboInterface\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T17:22:57.499Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

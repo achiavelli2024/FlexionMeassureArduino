@@ -1,0 +1,13 @@
+C:\M\PROJ\FlexionMeassureArduino\Interface-C#\FlexaoTuboInterface\FlexaoTuboInterface\bin\Debug\FlexaoTuboInterface.exe.config
+C:\M\PROJ\FlexionMeassureArduino\Interface-C#\FlexaoTuboInterface\FlexaoTuboInterface\bin\Debug\FlexaoTuboInterface.exe
+C:\M\PROJ\FlexionMeassureArduino\Interface-C#\FlexaoTuboInterface\FlexaoTuboInterface\bin\Debug\FlexaoTuboInterface.pdb
+C:\M\PROJ\FlexionMeassureArduino\Interface-C#\FlexaoTuboInterface\FlexaoTuboInterface\bin\Debug\System.IO.Ports.dll
+C:\M\PROJ\FlexionMeassureArduino\Interface-C#\FlexaoTuboInterface\FlexaoTuboInterface\bin\Debug\System.IO.Ports.xml
+C:\M\PROJ\FlexionMeassureArduino\Interface-C#\FlexaoTuboInterface\FlexaoTuboInterface\obj\Debug\FlexaoTuboInterface.csproj.AssemblyReference.cache
+C:\M\PROJ\FlexionMeassureArduino\Interface-C#\FlexaoTuboInterface\FlexaoTuboInterface\obj\Debug\FlexaoTuboInterface.Form1.resources
+C:\M\PROJ\FlexionMeassureArduino\Interface-C#\FlexaoTuboInterface\FlexaoTuboInterface\obj\Debug\FlexaoTuboInterface.Properties.Resources.resources
+C:\M\PROJ\FlexionMeassureArduino\Interface-C#\FlexaoTuboInterface\FlexaoTuboInterface\obj\Debug\FlexaoTuboInterface.csproj.GenerateResource.cache
+C:\M\PROJ\FlexionMeassureArduino\Interface-C#\FlexaoTuboInterface\FlexaoTuboInterface\obj\Debug\FlexaoTuboInterface.csproj.CoreCompileInputs.cache
+C:\M\PROJ\FlexionMeassureArduino\Interface-C#\FlexaoTuboInterface\FlexaoTuboInterface\obj\Debug\FlexaoTu.39058ECA.Up2Date
+C:\M\PROJ\FlexionMeassureArduino\Interface-C#\FlexaoTuboInterface\FlexaoTuboInterface\obj\Debug\FlexaoTuboInterface.exe
+C:\M\PROJ\FlexionMeassureArduino\Interface-C#\FlexaoTuboInterface\FlexaoTuboInterface\obj\Debug\FlexaoTuboInterface.pdb
