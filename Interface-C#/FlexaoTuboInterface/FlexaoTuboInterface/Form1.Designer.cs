@@ -34,11 +34,16 @@
             this.labelReference = new System.Windows.Forms.Label();
             this.comboBoxCOM = new System.Windows.Forms.ComboBox();
             this.labelFlexion = new System.Windows.Forms.Label();
+            this.labelX = new System.Windows.Forms.Label();
+            this.labelY = new System.Windows.Forms.Label();
+            this.labelZ = new System.Windows.Forms.Label();
+            this.buttonSetLength = new System.Windows.Forms.Button();
+            this.textBoxTubeLength = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // buttonConnect
             // 
-            this.buttonConnect.Location = new System.Drawing.Point(239, 27);
+            this.buttonConnect.Location = new System.Drawing.Point(197, 3);
             this.buttonConnect.Name = "buttonConnect";
             this.buttonConnect.Size = new System.Drawing.Size(188, 58);
             this.buttonConnect.TabIndex = 0;
@@ -59,7 +64,7 @@
             // labelStatus
             // 
             this.labelStatus.AutoSize = true;
-            this.labelStatus.Location = new System.Drawing.Point(469, 45);
+            this.labelStatus.Location = new System.Drawing.Point(403, 24);
             this.labelStatus.Name = "labelStatus";
             this.labelStatus.Size = new System.Drawing.Size(96, 16);
             this.labelStatus.TabIndex = 2;
@@ -77,7 +82,7 @@
             // comboBoxCOM
             // 
             this.comboBoxCOM.FormattingEnabled = true;
-            this.comboBoxCOM.Location = new System.Drawing.Point(31, 45);
+            this.comboBoxCOM.Location = new System.Drawing.Point(12, 12);
             this.comboBoxCOM.Name = "comboBoxCOM";
             this.comboBoxCOM.Size = new System.Drawing.Size(179, 24);
             this.comboBoxCOM.TabIndex = 4;
@@ -86,17 +91,67 @@
             // labelFlexion
             // 
             this.labelFlexion.AutoSize = true;
-            this.labelFlexion.Location = new System.Drawing.Point(264, 185);
+            this.labelFlexion.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFlexion.Location = new System.Drawing.Point(133, 173);
             this.labelFlexion.Name = "labelFlexion";
-            this.labelFlexion.Size = new System.Drawing.Size(162, 16);
+            this.labelFlexion.Size = new System.Drawing.Size(398, 54);
             this.labelFlexion.TabIndex = 5;
-            this.labelFlexion.Text = "Current Flexion: 0.00 graus";
+            this.labelFlexion.Text = "Flexão Atual: 0.00";
+            // 
+            // labelX
+            // 
+            this.labelX.AutoSize = true;
+            this.labelX.Location = new System.Drawing.Point(731, 248);
+            this.labelX.Name = "labelX";
+            this.labelX.Size = new System.Drawing.Size(15, 16);
+            this.labelX.TabIndex = 7;
+            this.labelX.Text = "X";
+            // 
+            // labelY
+            // 
+            this.labelY.AutoSize = true;
+            this.labelY.Location = new System.Drawing.Point(731, 280);
+            this.labelY.Name = "labelY";
+            this.labelY.Size = new System.Drawing.Size(16, 16);
+            this.labelY.TabIndex = 8;
+            this.labelY.Text = "Y";
+            // 
+            // labelZ
+            // 
+            this.labelZ.AutoSize = true;
+            this.labelZ.Location = new System.Drawing.Point(731, 312);
+            this.labelZ.Name = "labelZ";
+            this.labelZ.Size = new System.Drawing.Size(15, 16);
+            this.labelZ.TabIndex = 9;
+            this.labelZ.Text = "Z";
+            // 
+            // buttonSetLength
+            // 
+            this.buttonSetLength.Location = new System.Drawing.Point(197, 80);
+            this.buttonSetLength.Name = "buttonSetLength";
+            this.buttonSetLength.Size = new System.Drawing.Size(188, 56);
+            this.buttonSetLength.TabIndex = 10;
+            this.buttonSetLength.Text = "Tubo";
+            this.buttonSetLength.UseVisualStyleBackColor = true;
+            this.buttonSetLength.Click += new System.EventHandler(this.buttonSetLength_Click);
+            // 
+            // textBoxTubeLength
+            // 
+            this.textBoxTubeLength.Location = new System.Drawing.Point(12, 80);
+            this.textBoxTubeLength.Name = "textBoxTubeLength";
+            this.textBoxTubeLength.Size = new System.Drawing.Size(179, 22);
+            this.textBoxTubeLength.TabIndex = 11;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(900, 508);
+            this.Controls.Add(this.textBoxTubeLength);
+            this.Controls.Add(this.buttonSetLength);
+            this.Controls.Add(this.labelZ);
+            this.Controls.Add(this.labelY);
+            this.Controls.Add(this.labelX);
             this.Controls.Add(this.labelFlexion);
             this.Controls.Add(this.comboBoxCOM);
             this.Controls.Add(this.labelReference);
@@ -119,6 +174,11 @@
         private System.Windows.Forms.Label labelReference;
         private System.Windows.Forms.ComboBox comboBoxCOM;
         private System.Windows.Forms.Label labelFlexion;
+        private System.Windows.Forms.Label labelX;
+        private System.Windows.Forms.Label labelY;
+        private System.Windows.Forms.Label labelZ;
+        private System.Windows.Forms.Button buttonSetLength;
+        private System.Windows.Forms.TextBox textBoxTubeLength;
     }
 }
 

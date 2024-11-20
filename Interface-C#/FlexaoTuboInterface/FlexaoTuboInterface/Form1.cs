@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO.Ports;
+using System.Reflection.Emit;
 using System.Windows.Forms;
 
 namespace FlexaoTuboInterface
@@ -50,27 +51,43 @@ namespace FlexaoTuboInterface
         {
             try
             {
-                // Lê os dados recebidos do Arduino
+                // Lê os dados enviados pelo Arduino
                 string data = serialPort.ReadLine().Trim();
 
-                // Verifica se a mensagem é o valor de referência
-                if (data.StartsWith("REF:"))
+                // Identifica o tipo de mensagem recebida
+                if (data.StartsWith("Flexão:"))
                 {
-                    // Extrai o valor de referência da mensagem
-                    string referenceValue = data.Substring(4);
+                    // Processa o valor de flexão
+                    string flexionValue = data.Split(':')[1].Trim();
+                    Invoke(new MethodInvoker(delegate
+                    {
+                        labelFlexion.Text = $"Flexão Atual: {flexionValue} graus";
+                    }));
+                }
+                else if (data.StartsWith("Eixos:"))
+                {
+                    // Processa os valores dos eixos X, Y, Z
+                    string[] values = data.Substring(7).Split(' '); // Remove "Eixos: " e divide os eixos
 
-                    // Atualiza o label de referência na interface
+                    string xValue = values[0].Split(':')[1];
+                    string yValue = values[1].Split(':')[1];
+                    string zValue = values[2].Split(':')[1];
+
+                    // Atualiza os Labels na interface
+                    Invoke(new MethodInvoker(delegate
+                    {
+                        labelX.Text = $"X: {xValue}";
+                        labelY.Text = $"Y: {yValue}";
+                        labelZ.Text = $"Z: {zValue}";
+                    }));
+                }
+                else if (data.StartsWith("REF:"))
+                {
+                    // Processa o valor de referência
+                    string referenceValue = data.Substring(4).Trim();
                     Invoke(new MethodInvoker(delegate
                     {
                         labelReference.Text = $"Referência: {referenceValue}";
-                    }));
-                }
-                else
-                {
-                    // Atualiza o valor de flexão na interface
-                    Invoke(new MethodInvoker(delegate
-                    {
-                        labelFlexion.Text = $"Flexão Atual: {data} graus";
                     }));
                 }
             }
@@ -79,6 +96,7 @@ namespace FlexaoTuboInterface
                 MessageBox.Show($"Erro ao processar dados recebidos: {ex.Message}");
             }
         }
+
 
 
 
@@ -152,6 +170,27 @@ namespace FlexaoTuboInterface
             else
             {
                 MessageBox.Show("Conecte ao Arduino antes de calibrar.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void buttonSetLength_Click(object sender, EventArgs e)
+        {
+            if (isConnected && serialPort != null && serialPort.IsOpen)
+            {
+                try
+                {
+                    string length = textBoxTubeLength.Text; // Campo onde o usuário insere o comprimento
+                    serialPort.WriteLine($"L:{length}");
+                    MessageBox.Show($"Comprimento do tubo definido para {length} metros.");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Erro ao definir comprimento do tubo: {ex.Message}");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Conecte ao Arduino antes de definir o comprimento do tubo.");
             }
         }
     }
